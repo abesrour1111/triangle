@@ -17,7 +17,7 @@ public class TriangleTest {
 	public void test() {
 		Triangle t1 = new Triangle (3,4,5);
 		assertEquals(t1.getType(),TriangleType.Scalene);
-		System.out.println ("test2")
+		System.out.println ("test2");
 		t1=new Triangle(5,7,5);
 		assertEquals(t1.getType(),TriangleType.Isoceles);
 		t1=new Triangle (9,9,9);
