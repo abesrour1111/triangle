@@ -18,7 +18,7 @@ public class TriangleTest {
 		Triangle t1 = new Triangle (3,4,5);
 		assertEquals(t1.getType(),TriangleType.Scalene);
 		t1=new Triangle(5,5,5);
-		assertEquals(t1.getType(),TriangleType.Scalene);
+		assertEquals(t1.getType(),TriangleType.Equilateral);
 		t1=new Triangle (9,9,9);
 		assertEquals(t1.getType(),TriangleType.Equilateral);
 		t1=new Triangle (0,0,0);
